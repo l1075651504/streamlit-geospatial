@@ -11,7 +11,7 @@ from apps import (
     heatmap,
     home,
     housing,
-    plotly_maps,
+ #   plotly_maps,
     raster,
     timelapse,
     vector,
@@ -41,7 +41,7 @@ apps.add_app("Google Earth Engine (GEE)", gee.app)
 apps.add_app("Awesome GEE Community Datasets", gee_datasets.app)
 apps.add_app("Geolocation", device_loc.app)
 apps.add_app("Cesium 3D Map", cesium.app)
-apps.add_app("Plotly", plotly_maps.app)
+#apps.add_app("Plotly", plotly_maps.app)
 
 # The main app
 apps.run()
